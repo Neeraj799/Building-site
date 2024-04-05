@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li>Home</li>
                 <li>Projects</li>
                 <li>Rentals</li>
-                <li>About</li>
+                <li>Abou</li>
             </ul>
             <span className='menu-icon'>
                 <MenuIcon style={{ fontSize: '32px' }} />
