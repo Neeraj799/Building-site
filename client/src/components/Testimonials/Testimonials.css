@@ -1,0 +1,151 @@
+.main-containers {
+    background-color: black;
+    height: 1100px;
+    overflow: hidden;
+}
+
+.main-heading {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading {
+    color: white;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 150px;
+    width: 450px;
+    height: 600px;
+    border-radius: 50px;
+    background-color: #20212d;
+    z-index: 1;
+}
+
+.container2 {
+    display: flex;
+    position: relative;
+    top: 200px;
+    right: 350px;
+    width: 310px;
+    height: 680px;
+    rotate: -90deg;
+    border-radius: 70px;
+    background-color: #999999;
+    z-index: 10;
+    overflow: hidden;
+
+}
+
+.content-wrapper {
+    display: flex;
+    position: relative;
+    left: 15px;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.content-wrapper {
+    font-size: 52px;
+}
+
+.icon {
+    display: flex;
+    position: relative;
+    top: 20px;
+    margin: 0px auto;
+}
+
+.name {
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: 15px;
+    font-size: 42px;
+    color: white;
+
+}
+
+.subheading {
+    display: flex;
+    position: relative;
+    top: 40px;
+    right: 15px;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+
+.profile-wrapper {
+    display: flex;
+    position: relative;
+    bottom: 115px;
+    right: 90px;
+    width: 100px;
+    height: 550px;
+
+}
+
+.profile-wrapper img {
+    display: flex;
+    position: relative;
+    rotate: 90deg;
+}
+
+
+
+.profile-details {
+    display: flex;
+    position: relative;
+    top: 150px;
+    right: 190px;
+}
+
+.text {
+    display: flex;
+    position: relative;
+    right: 70px;
+    width: 200px;
+    rotate: 90deg;
+}
+
+.star-logo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 385px;
+    right: 215px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 580px;
+    right: 350px;
+
+}
+
+.dots {
+    display: flex;
+    position: relative;
+    top: 150px;
+    justify-content: center;
+
+}

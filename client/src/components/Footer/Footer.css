@@ -1,0 +1,48 @@
+.main-containers {
+    background-color: transparent;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer-logo img {
+    width: 20%;
+    height: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+}
+
+.footer-container {
+    width: 600px;
+    height: 400px;
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 10%;
+}
+
+.footer-container-small {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    background-color: #1e1e1e;
+    border-radius: 40px;
+}
+
+.footer-container div {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    color: white;
+}
+
+.footer-container span {
+    color: red;
+}

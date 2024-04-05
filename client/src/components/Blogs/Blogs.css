@@ -1,0 +1,157 @@
+.main-container {
+    background: linear-gradient(to right, #1e1e1e, #545454);
+}
+
+.blogs-container {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.main-heading {
+    display: flex;
+    position: relative;
+    top: 40px;
+    right: 100px;
+    font-size: 52px;
+    color: white;
+}
+
+.logo1 {
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 350px;
+}
+
+.about-button1 span {
+    color: white;
+}
+
+.about-button1 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: 190px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: blue;
+    transition: transform 0.3s ease;
+}
+
+.about-button1 div {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.material-symbols-outlined {
+    font-size: 40px;
+    background-color: red;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+    transform: rotate(-90deg);
+}
+
+.about-button1:hover .material-symbols-outlined {
+    transform: rotate(0deg);
+}
+
+.about-button1:hover {
+    background-color: white;
+}
+
+.button-text1:hover {
+    color: red;
+}
+
+.main-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+    gap: 150px;
+}
+
+.card-container {
+    display: flex;
+    height: 400px;
+    background-color: #121212;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.card-container img {
+    width: 50%;
+    height: 100%;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+
+
+
+
+.heading {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #121212;
+    color: white;
+}
+
+.heading2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.heading3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.heading4 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    color: red;
+}
+
+.arrowicon {
+    transition: transform 0.3s ease;
+}
+
+.arrowicon:hover {
+    transform: translateX(10px);
+}
+
+.heading4:hover {
+    color: white;
+}
+
+.bottom-text {
+    display: flex;
+    position: relative;
+    top: 10px;
+    right: 40px;
+    justify-content: end;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.bottom-text span:hover {
+    color: red;
+
+}

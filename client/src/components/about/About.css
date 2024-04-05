@@ -1,0 +1,106 @@
+.main-container {
+    background-color: black;
+}
+
+.about-container {
+    display: flex;
+    position: relative;
+    padding: 110px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    gap: 140px;
+    transition: background-color 0.5s ease;
+    /* Add transition for smooth effect */
+    background-image: linear-gradient(to right, red, orange);
+    /* Apply gradient */
+    background-size: 100% 1cm;
+    /* Set the size of the gradient */
+    background-repeat: no-repeat;
+}
+
+.about-container:hover {
+    background-size: 100% 100%;
+    /* Expand the gradient to cover the container */
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    font-weight: 600;
+}
+
+.about-left span {
+    font-size: 52px;
+    color: white;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-right div {
+    font-size: 18px;
+    text-align: start;
+    color: white;
+}
+
+.about-button span {
+    color: white;
+}
+
+.about-button {
+    width: 200px;
+    border-radius: 20px;
+    background-color: blue;
+    transition: transform 0.3s ease;
+}
+
+.about-button div {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.material-symbols-outlined {
+    font-size: 40px;
+    background-color: red;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+    transform: rotate(-90deg);
+}
+
+.about-button:hover .material-symbols-outlined {
+    transform: rotate(0deg);
+}
+
+.about-button:hover {
+    background-color: white;
+}
+
+.button-text:hover {
+    color: red;
+}
+
+.bottom-main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: black;
+
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: white;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+.homepage {
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+    overflow: hidden;
+}
+
+.background-image {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 250%;
+    object-fit: cover;
+}
+
+
+.main-heading {
+    position: relative;
+    display: flex;
+    bottom: 200px;
+    right: 250px;
+    z-index: 1;
+
+}
+
+.main-wrapper {
+    display: flex;
+    width: 900px;
+    gap: 20px;
+}
+
+.main-heading span {
+    color: white;
+    font-size: 58px;
+    font-weight: 400;
+}
