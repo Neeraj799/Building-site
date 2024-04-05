@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
     return (
@@ -14,8 +15,8 @@ const Navbar = () => {
                 <li>Rentals</li>
                 <li>About</li>
             </ul>
-            <span className="material-symbols-outlined">
-                menu
+            <span className='menu-icon'>
+                <MenuIcon style={{ fontSize: '32px' }} />
             </span>
         </div>
     )

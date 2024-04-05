@@ -1,13 +1,17 @@
 import React from 'react'
 import './Places.css'
+import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
 
 const Places = () => {
     return (
         <div>
-            <div className='main-container'>
+            <div className='places-containers'>
                 <div className='presense-wrapper'>
-                    <span className="material-symbols-outlined">
-                        verified
+                    <span className='outside-circle'>
+                        <CircleOutlinedIcon style={{ fontSize: '102px', color: 'white' }} />
+                    </span>
+                    <span className='inside-circle'>
+                        <CircleOutlinedIcon style={{ fontSize: '102px', color: 'white' }} />
                     </span>
                     <span className='icon-text'>Our Presence</span>
                 </div>

@@ -1,4 +1,5 @@
 .main-container {
+    height: 850px;
     background: linear-gradient(to right, #1e1e1e, #545454);
 }
 
@@ -8,13 +9,27 @@
     justify-content: space-between;
 }
 
-.main-heading {
+.main-heading1 {
     display: flex;
     position: relative;
     top: 40px;
-    right: 100px;
+    left: 450px;
     font-size: 52px;
     color: white;
+}
+
+.outside-circle2 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    right: 250px;
+}
+
+.inside-circle2 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: 550px;
 }
 
 .logo1 {
@@ -100,7 +115,7 @@
 
 
 
-.heading {
+.heading1 {
     font-size: 25px;
     font-weight: 600;
     background-color: #121212;

@@ -1,5 +1,5 @@
 .main-container {
-    background-color: black;
+    background-color: #121212;
 }
 
 .about-container {
@@ -8,21 +8,13 @@
     padding: 110px;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: #121212;
     gap: 140px;
-    transition: background-color 0.5s ease;
-    /* Add transition for smooth effect */
-    background-image: linear-gradient(to right, red, orange);
-    /* Apply gradient */
-    background-size: 100% 1cm;
-    /* Set the size of the gradient */
-    background-repeat: no-repeat;
+
+
 }
 
-.about-container:hover {
-    background-size: 100% 100%;
-    /* Expand the gradient to cover the container */
-}
+
 
 .about-left {
     display: flex;
@@ -91,9 +83,10 @@
 
 .bottom-main-wrapper {
     display: flex;
+    height: 300px;
     justify-content: space-between;
     padding: 40px;
-    background-color: black;
+    background-color: #121212;
 
 }
 

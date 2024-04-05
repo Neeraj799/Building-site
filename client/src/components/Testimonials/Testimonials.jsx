@@ -4,17 +4,21 @@ import profileImage from '../../assets/images/pic2.png'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
-
+import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
 
 const Testimonials = () => {
     return (
-        <div className='main-containers'>
+        <div className='testimonial-container'>
             <div className='main-heading'>
-                <span className="material-symbols-outlined">
-                    verified
-                </span>
-                <h2 className='heading'>Testimonials</h2>
+                <h2>Testimonials</h2>
+
             </div>
+            <span className='outside-circle1'>
+                <CircleOutlinedIcon style={{ fontSize: '102px', color: 'white' }} />
+            </span>
+            <span className='inside-circle1'>
+                <CircleOutlinedIcon style={{ fontSize: '102px', color: 'white' }} />
+            </span>
 
             <div className='testimonials-container'>
                 <div className='container1'>

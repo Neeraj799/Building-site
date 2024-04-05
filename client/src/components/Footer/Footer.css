@@ -1,5 +1,16 @@
-.main-containers {
-    background-color: transparent;
+.footer-main-container {
+    background-color: black;
+}
+
+.backgroundImage {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.5);
+    background-image: url(../../assets/images/footerpic.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
 }
 
 .footer-logo {
@@ -22,7 +33,7 @@
 .footer-container {
     width: 600px;
     height: 400px;
-    background-color: #1e1e1e;
+    background-color: rgba(23, 23, 23, 0.8);
     padding: 40px;
     border-radius: 10%;
 }
@@ -30,10 +41,12 @@
 .footer-container-small {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 90px;
     height: 400px;
-    background-color: #1e1e1e;
+    padding: 60px 30px;
+    background-color: rgba(23, 23, 23, 0.8);
     border-radius: 40px;
+    gap: 40px;
 }
 
 .footer-container div {
@@ -45,4 +58,29 @@
 
 .footer-container span {
     color: red;
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    border-radius: 40px;
+    background-color: rgba(23, 23, 23, 0.8);
+    color: white;
+}
+
+.footer-subwrapper {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    border-radius: 40px;
+    background-color: rgba(23, 23, 23, 0.8);
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-subwrapper div {
+    display: flex;
+    gap: 10px;
 }

@@ -1,4 +1,4 @@
-.main-container {
+.places-containers {
     background-color: black;
     overflow: hidden;
 }
@@ -9,6 +9,13 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.outside-circle {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 105px;
 }
 
 .material-symbols-outlined {

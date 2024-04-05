@@ -3,7 +3,7 @@ import './Awards.css'
 
 const Awards = () => {
     return (
-        <div className='main-container'>
+        <div>
             <div className='heading'>
                 <span style={{ color: "red" }}>Awards</span>
                 <span style={{ color: "white" }}>and Recognitions</span>

@@ -4,15 +4,21 @@ import FeedIcon from '@mui/icons-material/Feed';
 import building1 from '../../assets/images/pic3.jpg'
 import building2 from '../../assets/images/pic4.jpg'
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
 
 const Blogs = () => {
     return (
         <div className='main-container'>
+
+
             <div className='blogs-container'>
-                <span className='logo1'>
-                    <FeedIcon style={{ fontSize: '102px', color: 'white' }} />
+                <span className='main-heading1'>News and Blogs</span>
+                <span className='outside-circle2'>
+                    <CircleOutlinedIcon style={{ fontSize: '102px', color: 'white' }} />
                 </span>
-                <span className='main-heading'>News and Blogs</span>
+                <span className='inside-circle2'>
+                    <CircleOutlinedIcon style={{ fontSize: '102px', color: 'white' }} />
+                </span>
                 <button className='about-button1'>
                     <div>
                         <span className='button-text1'>Read more</span>
@@ -22,13 +28,17 @@ const Blogs = () => {
                     </div>
                 </button>
             </div>
+
+
+
+
             <div className='main-card-container'>
                 <div className='card-container'>
 
                     <img src={building2} alt="" />
 
                     <div className='card-details'>
-                        <span className='heading'>Renting vs Buying: What is your right choice for you in kochi? </span>
+                        <span className='heading1'>Renting vs Buying: What is your right choice for you in kochi? </span>
                         <span className='heading2'>March 16,2022</span>
                         <span className='heading3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, recusandae!</span>
                         <div className='heading4'>
@@ -44,7 +54,7 @@ const Blogs = () => {
                     <img src={building1} alt="" />
 
                     <div className='card-details'>
-                        <span className='heading'>Renting vs Buying: What is your right choice for you in kochi? </span>
+                        <span className='heading1'>Renting vs Buying: What is your right choice for you in kochi? </span>
                         <span className='heading2'>March 16,2022</span>
                         <span className='heading3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, recusandae!</span>
                         <div className='heading4'>
